@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+  .top-box{
+    background-image: url('/images/bg-login-top.png');
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    img{
+      margin-top: 17em;
+    }
+  }
+  .bottom-box{
+    background-image: url('/images/bg-login.png');
+    height: 50vh;
+    width: 100%;
+
+    form{
+    margin: 0 auto;
+    width: 10em;
+    color: white;
+
+    input{
+    width: 100%;
+    }
+    .submit-button{
+    width: 5em;
+    }
+   }
+  }
